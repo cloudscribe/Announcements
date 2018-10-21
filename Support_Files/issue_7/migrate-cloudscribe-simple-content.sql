@@ -21,7 +21,7 @@ TRUNCATE TABLE cs_page_comment;
 TRUNCATE TABLE cs_page_resource;
 TRUNCATE TABLE cs_post_category;
 TRUNCATE TABLE cs_post_comment;
-TRUNCATE TABLE cs_post;
+TRUNCATE TABLE cs_post CASCADE;
 TRUNCATE TABLE cs_content_history;
 TRUNCATE TABLE cs_content_project;
 
